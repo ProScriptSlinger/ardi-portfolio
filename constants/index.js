@@ -242,7 +242,7 @@ const experiences = [
       "Actively engaged with the VMukti community, assisted in workshops, and contributed to planning and managing VMukti events, ensuring their success and growth.",
     ],
   },
-  
+
   {
     title: "Qulity Engineer",
     company_name: "Apprentice at Tata Motors Passenger Vehicle Pvt. Ltd. ",
@@ -315,7 +315,7 @@ const projects = [
     ],
     image: "/assets/projects/ChatBot.png",
     source_code_link: "https://github.com/satyamshorrf/Lisa-Chatbot-Virtual-Assistant",
-    deployed_link: "#",
+    deployed_link: "https://satyamshorrf.github.io/Lisa-Chatbot-Virtual-Assistant/",
   },
   {
     name: "Amazon Website",
@@ -345,7 +345,7 @@ const projects = [
     ],
     image: "/assets/projects/amazon.jpg",
     source_code_link: "https://github.com/satyamshorrf/Amazon",
-    deployed_link: "#",
+    deployed_link: "https://satyamshorrf.github.io/Amazon/",
   },
   {
     name: "AI Virtual Girlfriend",
@@ -390,6 +390,227 @@ const projects = [
       "https://github.com/wass08/r3f-virtual-girlfriend-frontend",
     deployed_link:
       "#",
+  },
+  {
+    name: "lazarev ",
+    description:
+      "The Lazarev website clone is a recreated version of the Lazarev digital product design agency's website, often developed for practice or showcasing frontend development skills. It features elegant design, intricate animations, and interactivity, built using technologies like HTML, CSS, and JavaScript. Some clones highlight specific offerings, such as showcasing unique cinematography equipment or simulating the agency's focus on engaging user experiences and business growth!",
+    tags: [
+      {
+        name: "typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "3D-Models",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "node.js",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "tanstack/react-query",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "OpenAI",
+        color: "white-text-gradient",
+      },
+      {
+        name: "Elevenlabs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "react/react-fiber",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: "/assets/projects/lazarev.png",
+    source_code_link:
+      "https://github.com/satyamshorrf/lazarev",
+    deployed_link:
+      "https://satyamshorrf.github.io/lazarev/",
+  },
+  {
+    name: "3D Animated Website",
+    description:
+      "Creating a 3D animated website using HTML, CSS, and JavaScript involves combining advanced CSS properties like transform and perspective with JavaScript for interactivity. For scrolling animations, libraries like Three.js or Canvas are commonly used to achieve smooth 3D effects. Such projects can include interactive 3D models, immersive environments, or dynamic effects like rotating objects and scrolling scenes. Examples include creating 3D rooms or implementing engaging scrolling animations for websites!",
+    tags: [
+      {
+        name: "typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "3D-Models",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "node.js",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "tanstack/react-query",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "OpenAI",
+        color: "white-text-gradient",
+      },
+      {
+        name: "Elevenlabs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "react/react-fiber",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: "/assets/projects/3D-Animated.png",
+    source_code_link:
+      "https://github.com/satyamshorrf/3D-Animated-Website",
+    deployed_link:
+      "https://3-d-animated-website-ochre.vercel.app",
+  },
+  {
+    name: "ThreeJS Landing Page",
+    description:
+      
+"Creating a financial website using Three.js can involve incorporating interactive 3D models to visualize data, like dynamic graphs, pie charts, or financial trends. Three.js is a JavaScript library that simplifies creating WebGL-powered 3D graphics in the browser. For example, you could develop a 3D dashboard with rotating charts or interactive models that represent market behavior, enabling users to interact with financial data in an immersive way. The library's versatility allows for lightweight yet visually stunning implementations suitable for various financial use cases!",
+    tags: [
+      {
+        name: "typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "3D-Models",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "node.js",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "tanstack/react-query",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "OpenAI",
+        color: "white-text-gradient",
+      },
+      {
+        name: "Elevenlabs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "react/react-fiber",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: "/assets/projects/ThreeJS.png",
+    source_code_link:
+      "https://github.com/satyamshorrf/Landing-Page-ThreeJS",
+    deployed_link:
+      "https://landing-page-three-js-eight.vercel.app",
+  },
+  {
+    name: "TPC Madhepura",
+    description:
+      "As a 2nd-year BCA student, you can create a Friend Circle website using HTML, CSS, and JavaScript. This project can allow users to connect with their friends and display their social media profiles. Key features can include: Profile Cards: Use HTML and CSS to design individual profile cards with each friend's name, picture, and social media icons linked to their accounts; Add Friends Feature: Implement a feature to add friends using a form and a Friends Mapping structure in JavaScript or backend logic; Responsive Design: Ensure the website works across devices using media queries and responsive layouts; Theme Customization: Allow users to customize the look of the website with light/dark themes; Interactive Features: Use JavaScript for animations, interactive menus, or showing/hiding details dynamically. This project can serve as a practical introduction to web development concepts and enhance your skills!",
+    tags: [
+      {
+        name: "typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "3D-Models",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "node.js",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "tanstack/react-query",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "OpenAI",
+        color: "white-text-gradient",
+      },
+      {
+        name: "Elevenlabs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "react/react-fiber",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: "/assets/projects/TPC-Madhepura.png",
+    source_code_link:
+      "https://github.com/satyamshorrf/TPC-Madhepura",
+    deployed_link:
+      "https://tpc-madhepura.vercel.app",
+  },
+  {
+    name: "Responsive Construction Website",
+    description:
+  "Responsive Construction Website Design Using HTML CSS And JavaScript - Contains animations when scrolling. - Smooth scrolling in each section. - Developed first with the Mobile First methodology, then for desktop. - Compatible with all mobile devices and with a beautiful and pleasant user interface.",
+    tags: [
+      {
+        name: "typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "3D-Models",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "node.js",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "tanstack/react-query",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "OpenAI",
+        color: "white-text-gradient",
+      },
+      {
+        name: "Elevenlabs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "react/react-fiber",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: "/assets/projects/construction.png",
+    source_code_link:
+      "https://github.com/satyamshorrf/Responsive-Construction-Website",
+    deployed_link:
+      "https://satyamshorrf.github.io/Responsive-Construction-Website/",
   },
 ];
 
