@@ -29,7 +29,7 @@ function Contact() {
         process.env.NEXT_PUBLIC_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "Satyam Shorrf",
+          to_name: "Ardi Usanto",
           from_email: form.email,
           to_email: "@gmail.com",
           message: form.message,

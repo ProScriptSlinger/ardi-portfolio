@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 
 import { socials } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
-import EmailIcon from "./../public/assets/icons/email.svg";
 
 function About() {
   return (
@@ -28,16 +27,16 @@ function About() {
         className="mt-4 dark:text-ctnSecondaryDark text-gray-300 text-[17px] w-full leading-[30px] flex flex-col justify-between gap-6"
       >
         <div>
-        "Hello! I'm Satyam Shorrf, an engineering professional with a strong academic background in both Mechanical and Software Engineering. I'm currently pursuing a Bachelor of Software Engineering from T.P. College, Madhepura, with a score of 85.75% and a CGPA of 8.03. I also hold a Diploma in Mechanical Engineering from Exalt College of Polytechnic, Vaishali.
+        "Hello! I'm Ardi Usanto, an engineering professional with a strong academic background in Software Engineering. I have pursued a Master of Software Engineering from University of Oxford, with a score of 85.75% and a CGPA of 3.7. 
 
-As a software developer, I have experience in TypeScript, TailwindCSS, and JavaScript. I specialize in frameworks such as React, Node.js, Next.js, React-Three-Fiber, and Three.js. My knowledge extends to fundamental data structures and algorithms, making me well-versed in frontend web development.
+As a software developer, I have experience in C#, TypeScript, Rust, and JavaScript. I specialize in frameworks such as React, Next.js, Node.js, .Net Core, ASP.Net,  React-Three-Fiber, and Three.js. My knowledge extends to fundamental data structures and algorithms, making me well-versed in frontend web development.
 
 I'm actively learning and enhancing my knowledge and skills in cutting-edge technologies, including Machine Learning, Deep Learning, Artificial Intelligence, Blockchain, and OpenCV."
           
           <br className="sm:block hidden" />
           Let&apos;s collaborate to bring your ideas to life!
         </div>
-        <div className="w-fit break-words">
+        {/* <div className="w-fit break-words">
           <Link
             href=""
             target="_blank"
@@ -47,7 +46,7 @@ I'm actively learning and enhancing my knowledge and skills in cutting-edge tech
             <EmailIcon className="w-[30px] h-[30px]" />
             
           </Link>
-        </div>
+        </div> */}
         <div className="flex gap-5 items-center">
           {socials.map((social) => (
             <Link
@@ -61,7 +60,7 @@ I'm actively learning and enhancing my knowledge and skills in cutting-edge tech
           ))}
         </div>
         <Link
-          href="document/Satyam-Kumar-Resume.pdf"
+          href="document/Ardi-Usanto.pdf"
           target="_blank"
           rel="noreferrer"
           className="w-fit"

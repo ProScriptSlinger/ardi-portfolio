@@ -1,13 +1,12 @@
 import GithubIcon from "./../public/assets/icons/github.svg";
 import LinkedInIcon from "./../public/assets/icons/linkedin.svg";
-import XIcon from "./../public/assets/icons/x.svg";
-import InstagramIcon from "./../public/assets/icons/instagram.svg";
 import FrontendIcon from "./../public/assets/icons/frontend.svg";
 import LeaderShipIcon from "./../public/assets/icons/leadership.svg";
 import ProblemSolvingIcon from "./../public/assets/icons/problem-solving.svg";
 import FreelancerIcon from "./../public/assets/icons/freelance.svg";
 import BackendIcon from "./../public/assets/icons/backend.svg";
 import FullStackIcon from "./../public/assets/icons/full-stack.svg";
+import EmailIcon from "./../public/assets/icons/email.svg";
 
 const navLinks = [
   {
@@ -50,10 +49,6 @@ const services = [
     icon: <ProblemSolvingIcon />,
   },
   {
-    title: "Freelancer",
-    icon: <FreelancerIcon />,
-  },
-  {
     title: "Leadership",
     icon: <LeaderShipIcon />,
   },
@@ -62,14 +57,9 @@ const services = [
 const technologies = {
   languages: [
     {
-      name: "HTML5",
-      icon: "/assets/tech/html5.svg",
+      name: "C#",
+      icon: "/assets/tech/c-32.png",
       link: "https://html.spec.whatwg.org/multipage/",
-    },
-    {
-      name: "CSS3",
-      icon: "/assets/tech/css3.svg",
-      link: "https://www.w3.org/Style/CSS/Overview.en.html",
     },
     {
       name: "JavaScript",
@@ -82,27 +72,42 @@ const technologies = {
       link: "https://www.typescriptlang.org/",
     },
     {
+      name: "Rust",
+      icon: "/assets/tech/rust-programming-language-48.png",
+      link: "https://doc.rust-lang.org/book/",
+    },
+    {
       name: "C",
       icon: "/assets/tech/c.svg",
       link: "https://en.cppreference.com/w/c",
     },
-    {
-      name: "Java",
-      icon: "/assets/tech/java.svg",
-      link: "https://www.java.com/en/",
-    },
+    // {
+    //   name: "Java",
+    //   icon: "/assets/tech/java.svg",
+    //   link: "https://www.java.com/en/",
+    // },
     {
       name: "Python",
       icon: "/assets/tech/python.svg",
       link: "https://www.python.org/",
     },
-    {
-      name: "PHP",
-      icon: "/assets/tech/php.png",
-      link: "https://www.php.net/",
-    },
+    // {
+    //   name: "PHP",
+    //   icon: "/assets/tech/php.png",
+    //   link: "https://www.php.net/",
+    // },
   ],
   frameworks: [
+    {
+      name: "AngularJS",
+      icon: "/assets/tech/angular-50.png",
+      link: "https://docs.angularjs.org/guide",
+    },
+    {
+      name: ".NET Core",
+      icon: "/assets/tech/net-framework-50.png",
+      link: "https://learn.microsoft.com/en-us/aspnet/core/?view=aspnetcore-9.0",
+    },
     {
       name: "Next.js",
       icon: "/assets/tech/nextjs.svg",
@@ -211,46 +216,53 @@ const technologies = {
       icon: "/assets/tech/my-sql.png",
       link: "https://www.mysql.com/",
     },
+    {
+      name: "PostgreSQL",
+      icon: "/assets/tech/postgresql.png",
+      link: "https://www.postgresql.org/docs/",
+    },
   ],
 };
 
 const experiences = [
   {
+    title: "Lead Full Stack Developer",
+    company_name: "Solar Enterprises",
+    icon: "/assets/company/solar.png",
+    iconBg: "#E6DEDD",
+    date: "June 2021 - November 2024",
+    points: [
+      "Web Development: Developed scalable web applications and RESTful APIs using Angular, Nest.js, and ASP.NET.",
+      "Front-end Technologies: Proficient in HTML5, Tailwind CSS, and Bootstrap for building engaging user interfaces.",
+      "Back-end Expertise: Experienced in C#, implementing security measures, authentication, and authorization.",
+      "Architectural Patterns: Utilized CQRS design patterns to enhance system responsiveness and performance.",
+      "DevOps Practices: Integrated CI/CD with Jenkins and Git for automated deployments on AWS and Google App Engine.",
+    ],
+  },
+
+  {
     title: "Full Stack Developer",
-    company_name: "TPC Madhepura",
-    icon: "/assets/company/TPC.png",
+    company_name: "BORN",
+    icon: "/assets/company/born.png",
     iconBg: "#E6DEDD",
-    date: "January 2024 - Present",
+    date: "April 2019 - May 2021",
     points: [
-      "Currently serving as the Tech Lead of TPC Madhepura, responsible for guiding technical aspects, fostering collaboration, and contributing to strategic decisions.",
-      "Led induction programs, ensured new member alignment with TPC's mission, and provided technical mentorship.",
-      "Developed TPC website, enhancing the organization's online visibility.",
-      "Spearheaded promotional campaigns, actively engaged with the TPC community, and played a key role in planning and executing events.",
+      "Client Engagement: Collaborated with stakeholders to gather requirements and estimate user stories for functional specifications.",
+      "Full-Stack Development: Developed sub-applications using Nest.js (backend) and Angular (frontend), employing TypeScript, HTML5, CSS, and Bootstrap.",
+      "Database Management: Crafted complex SQL queries and implemented stored procedures, triggers, and views robustly within the application stack.",
+      "API Integration: Integrated SOAP/REST services, adapting bindings for diverse client needs, and optimized applications for RESTful API functionality.",
+      "Testing and Support: Conducted thorough testing, including unit tests, and provided support for production issues during deployments.",
     ],
   },
 
   {
-    title: "Webcasting Technician",
-    company_name: "Tech team member at VMukti Solutions Pvt. Ltd. ",
-    icon: "/assets/company/VMukti.png",
+    title: "Backend Developer",
+    company_name: "Civis Analytics",
+    icon: "/assets/company/civis.png",
     iconBg: "#E6DEDD",
-    date: "May 2024",
+    date: "May 2019 - March 2019",
     points: [
-      "Played a key role in providing technical support for live webcasting during the Lok Sabha elections. Managed smooth streaming operations and real-time monitoring of voting processes, ensuring transparency and timely reporting during the election period.",
-      "Successfully planned and executed induction programs, providing new members with crucial information about the organization's goals and values.",
-      "Played a crucial role in promoting VMukti events and actively collaborated with cross-functional teams to deliver high-quality projects, fostering teamwork and innovation.",
-      "Actively engaged with the VMukti community, assisted in workshops, and contributed to planning and managing VMukti events, ensuring their success and growth.",
-    ],
-  },
-
-  {
-    title: "Qulity Engineer",
-    company_name: "Apprentice at Tata Motors Passenger Vehicle Pvt. Ltd. ",
-    icon: "/assets/company/TATA-Motors.png",
-    iconBg: "#E6DEDD",
-    date: "September 2022 - September 2023",
-    points: [
-      "Contributing to various automotive production processes, ensuring high-quality standards,and gaining hands-on experience in vehicle assembly. Collaborated with cross-functional teams to meet quality targets and improve operational efficiency.",
+      "Requirements Gathering: Collaborated with the team to understand software application requirements and contributed to design and architecture.",
       "Actively addressed client issues and queries, ensuring seamless integration with their platform and local cluster system.",
       "Successfully planned and executed induction programs, providing new members with crucial information about the organization's goals and values.",
       "Played a crucial role in promoting TATA Motors events and actively collaborated with cross-functional teams to deliver high-quality projects, fostering teamwork and innovation.",
@@ -288,34 +300,34 @@ const testimonials = [
 
 const projects = [
   {
-    name: "LISA AI assistant",
+    name: "Creador Design",
     description:
-      "LISA: A conversational AI assistant that understands natural language, performs tasks, answers questions, and integrates with devices to simplify daily life.",
+      "Creadoor is a two-sided online marketplace where you can find content producers and bloggers to promote your brand or business. At the same time, content producers can create their accounts on the platform and meet their clients there.",
     tags: [
       {
-        name: "html",
+        name: "Angular",
         color: "blue-text-gradient",
       },
       {
         name: "JavaScript",
-        color: "yellow-text-gradient",
+        color: "white-text-gradient",
       },
       {
         name: "tailwindcss",
         color: "pink-text-gradient",
       },
       {
-        name: "fabricjs",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "liveblocks",
+        name: "ASP.NET Core",
         color: "yellow-text-gradient",
       },
+      {
+        name: "MongoDB",
+        color: "orange-text-gradient",
+      },
     ],
-    image: "/assets/projects/ChatBot.png",
-    source_code_link: "https://github.com/satyamshorrf/Lisa-Chatbot-Virtual-Assistant",
-    deployed_link: "https://satyamshorrf.github.io/Lisa-Chatbot-Virtual-Assistant/",
+    image: "/assets/projects/creador.png",
+    source_code_link: "#",
+    deployed_link: "https://creadoor.pl/en/",
   },
   {
     name: "Amazon Website",
@@ -324,11 +336,11 @@ const projects = [
     tags: [
       {
         name: "next.js",
-        color: "blue-text-gradient",
+        color: "green-text-gradient",
       },
       {
         name: "styled-components",
-        color: "green-text-gradient",
+        color: "blue-text-gradient",
       },
       {
         name: "three.js",
@@ -344,11 +356,11 @@ const projects = [
       },
     ],
     image: "/assets/projects/amazon.jpg",
-    source_code_link: "https://github.com/satyamshorrf/Amazon",
-    deployed_link: "https://satyamshorrf.github.io/Amazon/",
+    source_code_link: "#",
+    deployed_link: "https://ProScriptSlinger.github.io/Amazon/",
   },
   {
-    name: "AI Virtual Girlfriend",
+    name: "OllaBot",
     description:
       "In this project we will create a virtual girlfriend chatbot, but feel free to use what you'll learn to build your own support assistant, language teacher, or any ideas you have in mind!",
     tags: [
@@ -357,7 +369,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "3D-Models",
+        name: "React",
         color: "green-text-gradient",
       },
       {
@@ -365,11 +377,11 @@ const projects = [
         color: "pink-text-gradient",
       },
       {
-        name: "node.js",
+        name: "C#",
         color: "orange-text-gradient",
       },
       {
-        name: "tanstack/react-query",
+        name: "ASP.NET Core",
         color: "yellow-text-gradient",
       },
       {
@@ -377,7 +389,7 @@ const projects = [
         color: "white-text-gradient",
       },
       {
-        name: "Elevenlabs",
+        name: "LangChain",
         color: "green-text-gradient",
       },
       {
@@ -385,83 +397,71 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: "/assets/projects/AI-Girlfriend.jpeg",
-    source_code_link:
-      "https://github.com/wass08/r3f-virtual-girlfriend-frontend",
-    deployed_link:
-      "#",
+    image: "/assets/projects/olla-bot.jpg",
+    source_code_link: "#",
+    deployed_link: "https://www.ollabot.com/",
   },
   {
-    name: "lazarev ",
+    name: "Solana Trading ",
     description:
-      "The Lazarev website clone is a recreated version of the Lazarev digital product design agency's website, often developed for practice or showcasing frontend development skills. It features elegant design, intricate animations, and interactivity, built using technologies like HTML, CSS, and JavaScript. Some clones highlight specific offerings, such as showcasing unique cinematography equipment or simulating the agency's focus on engaging user experiences and business growth!",
+      "Guess2Gain is a play-to-earn game on the Solana blockchain where players earn cryptocurrency by accurately predicting Bitcoin price movements. Combining fun gameplay with strategic forecasting, it offers an engaging way to interact with the crypto market.",
     tags: [
       {
-        name: "typescript",
+        name: "Rust",
         color: "blue-text-gradient",
       },
       {
-        name: "3D-Models",
+        name: "Solana",
         color: "green-text-gradient",
+      },
+      {
+        name: "gRPC",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "React",
+        color: "orange-text-gradient",
       },
       {
         name: "tailwindcss",
         color: "pink-text-gradient",
       },
       {
-        name: "node.js",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "tanstack/react-query",
-        color: "yellow-text-gradient",
-      },
-      {
-        name: "OpenAI",
+        name: "TelegramApi",
         color: "white-text-gradient",
       },
-      {
-        name: "Elevenlabs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "react/react-fiber",
-        color: "blue-text-gradient",
-      },
     ],
-    image: "/assets/projects/lazarev.png",
-    source_code_link:
-      "https://github.com/satyamshorrf/lazarev",
-    deployed_link:
-      "https://satyamshorrf.github.io/lazarev/",
+    image: "/assets/projects/solana-trading.jpg",
+    source_code_link: "#",
+    deployed_link: "https://guess2gain.com/",
   },
   {
-    name: "3D Animated Website",
+    name: "nopCommerce",
     description:
-      "Creating a 3D animated website using HTML, CSS, and JavaScript involves combining advanced CSS properties like transform and perspective with JavaScript for interactivity. For scrolling animations, libraries like Three.js or Canvas are commonly used to achieve smooth 3D effects. Such projects can include interactive 3D models, immersive environments, or dynamic effects like rotating objects and scrolling scenes. Examples include creating 3D rooms or implementing engaging scrolling animations for websites!",
+      "nopCommerce is a leading eCommerce platform and the most popular ASP.NET Core shopping cart. It has been actively developed since 2008, boasting over 3 million downloads and a vibrant community of more than 250,000 developers. With support for multiple databases, cross-platform functionality, and features like multi-factor authentication, nopCommerce provides a robust solution for building and customizing online stores.",
     tags: [
       {
-        name: "typescript",
+        name: "C#",
         color: "blue-text-gradient",
       },
       {
-        name: "3D-Models",
-        color: "green-text-gradient",
+        name: "ASP.NET Core",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "React",
+        color: "orange-text-gradient",
       },
       {
         name: "tailwindcss",
         color: "pink-text-gradient",
       },
       {
-        name: "node.js",
-        color: "orange-text-gradient",
-      },
-      {
         name: "tanstack/react-query",
-        color: "yellow-text-gradient",
+        color: "green-text-gradient",
       },
       {
-        name: "OpenAI",
+        name: "PostgreSQL",
         color: "white-text-gradient",
       },
       {
@@ -473,105 +473,14 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: "/assets/projects/3D-Animated.png",
-    source_code_link:
-      "https://github.com/satyamshorrf/3D-Animated-Website",
-    deployed_link:
-      "https://3-d-animated-website-ochre.vercel.app",
-  },
-  {
-    name: "ThreeJS Landing Page",
-    description:
-      
-"Creating a financial website using Three.js can involve incorporating interactive 3D models to visualize data, like dynamic graphs, pie charts, or financial trends. Three.js is a JavaScript library that simplifies creating WebGL-powered 3D graphics in the browser. For example, you could develop a 3D dashboard with rotating charts or interactive models that represent market behavior, enabling users to interact with financial data in an immersive way. The library's versatility allows for lightweight yet visually stunning implementations suitable for various financial use cases!",
-    tags: [
-      {
-        name: "typescript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "3D-Models",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwindcss",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "node.js",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "tanstack/react-query",
-        color: "yellow-text-gradient",
-      },
-      {
-        name: "OpenAI",
-        color: "white-text-gradient",
-      },
-      {
-        name: "Elevenlabs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "react/react-fiber",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: "/assets/projects/ThreeJS.png",
-    source_code_link:
-      "https://github.com/satyamshorrf/Landing-Page-ThreeJS",
-    deployed_link:
-      "https://landing-page-three-js-eight.vercel.app",
-  },
-  {
-    name: "TPC Madhepura",
-    description:
-      "As a 2nd-year BCA student, you can create a Friend Circle website using HTML, CSS, and JavaScript. This project can allow users to connect with their friends and display their social media profiles. Key features can include: Profile Cards: Use HTML and CSS to design individual profile cards with each friend's name, picture, and social media icons linked to their accounts; Add Friends Feature: Implement a feature to add friends using a form and a Friends Mapping structure in JavaScript or backend logic; Responsive Design: Ensure the website works across devices using media queries and responsive layouts; Theme Customization: Allow users to customize the look of the website with light/dark themes; Interactive Features: Use JavaScript for animations, interactive menus, or showing/hiding details dynamically. This project can serve as a practical introduction to web development concepts and enhance your skills!",
-    tags: [
-      {
-        name: "typescript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "3D-Models",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwindcss",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "node.js",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "tanstack/react-query",
-        color: "yellow-text-gradient",
-      },
-      {
-        name: "OpenAI",
-        color: "white-text-gradient",
-      },
-      {
-        name: "Elevenlabs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "react/react-fiber",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: "/assets/projects/TPC-Madhepura.png",
-    source_code_link:
-      "https://github.com/satyamshorrf/TPC-Madhepura",
-    deployed_link:
-      "https://tpc-madhepura.vercel.app",
+    image: "/assets/projects/nopcommerce.png",
+    source_code_link: "#",
+    deployed_link: "https://demo.nopcommerce.com/",
   },
   {
     name: "Responsive Construction Website",
     description:
-  "Responsive Construction Website Design Using HTML CSS And JavaScript - Contains animations when scrolling. - Smooth scrolling in each section. - Developed first with the Mobile First methodology, then for desktop. - Compatible with all mobile devices and with a beautiful and pleasant user interface.",
+      "Responsive Construction Website Design Using HTML CSS And JavaScript - Contains animations when scrolling. - Smooth scrolling in each section. - Developed first with the Mobile First methodology, then for desktop. - Compatible with all mobile devices and with a beautiful and pleasant user interface.",
     tags: [
       {
         name: "typescript",
@@ -607,8 +516,7 @@ const projects = [
       },
     ],
     image: "/assets/projects/construction.png",
-    source_code_link:
-      "https://github.com/satyamshorrf/Responsive-Construction-Website",
+    source_code_link: "#",
     deployed_link:
       "https://satyamshorrf.github.io/Responsive-Construction-Website/",
   },
@@ -618,37 +526,28 @@ const socials = [
   {
     id: "github",
     icon: <GithubIcon />,
-    link: "https://github.com/satyamshorrf",
+    link: "https://github.com/ProScriptSlinger",
   },
   {
     id: "linkedin",
     icon: <LinkedInIcon />,
-    link: "https://www.linkedin.com/in/satyamshorrf/",
+    link: "https://www.linkedin.com/in/ardy-usanto-335835348/",
   },
   {
-    id: "x",
-    icon: <XIcon />,
-    link: "https://twitter.com/satyamshorrf",
-  },
-  {
-    id: "instagram",
-    icon: <InstagramIcon />,
-    link: "https://instagram.com/satyamshorrf",
+    id: "email",
+    icon: <EmailIcon />,
+    link: "mailto:ardyusanto@gmail.com",
   },
 ];
 
 const heroTexts = [
-  "React/Next.js developer",
-  500,
-  "Full-Stack developer",
+  "Full-Stack .NET Developer",
   500,
   "Frontend developer",
   500,
   "Backend developer",
   500,
-  "Mechanical Engineer",
-  500,
-  "Automobile Engineer",
+  "DevOps Engineer",
   500,
   "Quality Engineer",
   500,
