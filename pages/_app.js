@@ -27,8 +27,7 @@ export default function App({ Component, pageProps }) {
   const description =
     "Hello! I'm Ardi Usanto, a passionate web developer and problem solver. Welcome to my portfolio";
   const avatar = "public/assets/avatar-meta.jpg";
-  const url =
-    "https://3-d-portfolio-hbuqr3wbo-satyam-shorrfs-projects.vercel.app/";
+  const url = "https://ardi-usanto.vercel.app/";
 
   return (
     <>
@@ -53,23 +52,12 @@ export default function App({ Component, pageProps }) {
 
         <link rel="canonical" href={url} />
         <link
-          rel="apple-touch-icon"
-          sizes="180x180"
-          href="/assets/icons/favicon/apple-touch-icon.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="32x32"
-          href="/assets/icons/favicon/favicon-32x32.png"
-        />
-        <link
           rel="icon"
           type="image/png"
           sizes="16x16"
-          href="/assets/icons/favicon/favicon-16x16.png"
+          href="public/assets/avatar-meta.jpg"
         />
-        <link rel="manifest" href="/assets/icons/favicon/site.webmanifest" />
+        {/* <link rel="manifest" href="public/assets/avatar-meta.jpg" /> */}
       </Head>
 
       <ThemeProvider attribute="class" defaultTheme="dark">
